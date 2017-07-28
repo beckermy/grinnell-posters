@@ -1,28 +1,59 @@
 .background {
-  background-color: #000000;
+  background-color: #FFFFFF;
 }
 
-.header {
-  margin-top: 15px;
+/* Header */
+#header {
+  position: absolute;
+  background-color: #efefef;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+.title {
   text-align: center;
-  color: white;
+  color: black;
+  margin-top: 0px;
 }
 
 .nav {
-  color: white;
+  color: black;
   text-align: center;
   size: 150%;
 }
 
 a:link {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FF1A00;
+  color: #FFFFFF;
 }
 
 a:visited {
   color: #bababa;
 }
+
+/* Footer */ 
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+#footer .copyright { 
+  color: #bbb; 
+  font-size: 0.8em; 
+  letter-spacing: 0.25em; 
+  margin-bottom: 0; 
+  text-transform: uppercase; 
+} 
+
