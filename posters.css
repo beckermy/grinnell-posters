@@ -24,16 +24,16 @@
   size: 150%;
 }
 
-a:link {
-  color: black;
+.nav a:link {
   text-decoration: none;
+  color: black;
 }
 
-a:hover {
+.nav a:hover {
   color: #FFFFFF;
 }
 
-a:visited {
+.nav a:visited {
   color: #bababa;
 }
 
@@ -41,8 +41,9 @@ a:visited {
 .home{
   text-align: center;
   margin: auto;
-  margin-top: 125px;
-  color: #b2b2b2;
+  margin-top: 135px;
+  margin-bottom: 60px;
+  color: #848484;
   width: 40%;
 }
 
@@ -61,8 +62,38 @@ a:visited {
 }
 
 .col {
-  width: 33%
-  display: inline-block;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+
+  -webkit-column-rule: 4px outset #efefef; /* Chrome, Safari, Opera */
+  -moz-column-rule: 4px outset #efefef; /* Firefox */
+  column-rule: 4px outset #efefef;
+
+  margin-top: 75px;
+}
+
+.concerts , .KDIC , .events {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+.concerts:hover , .KDIC:hover , .events:hover , 
+.concerts:hover a, .KDIC:hover a, .events:hover a {
+  color: #ffffff;
+  background-color: #848484;
+  text-decoration: none;
+}
+
+.concerts a , .KDIC a , .events a {
+  color: #848484;
+  text-decoration: none;
 }
 
 /* Footer */ 

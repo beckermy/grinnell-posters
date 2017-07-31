@@ -1,0 +1,71 @@
+<html lang="en-us">                                                                                                                        
+  <head>
+	<link rel="stylesheet" href="posters.css"/>
+	<title>Grinnell Posters</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  </head>
+  <body class="background">
+
+	<!-- Header -->
+	<header id="header">
+	  <h1 class="title">Grinnell Posters</h1>
+	  <nav class="nav">
+		<a href="index.html">Home</a> |
+		<a href="concerts.html">Concerts</a> |
+		<a href="KDIC.html">KDIC</a> |
+		<a href="events.html">Events</a> |
+		<a href="contact.html">Contact Us</a>
+	  </nav>
+	</header>
+
+	<!-- Contact Form -->
+	<div class="home">
+	  <h2 class="welcome"> Contact Us </h2>
+	  <hr class="divider"></hr>
+	  <form method="POST" action="http://formspree.io/beckermy@grinnell.edu">
+		<div class="field half first">
+		  <label for="name">Name</label>
+		  <input type="text" name="name" id="name" />
+		</div>
+		<div class="field half">
+		  <label for="email">Email</label>
+		  <input type="text" name="email" id="email" />
+		</div>
+		<div class="12u$"> 
+		  <div class="select-wrapper"> 
+			<select name="category" id="category"> 
+			  <option value="">- Category -</option> 
+			  <option value="1">Adding a Poster</option>
+			  <option value="1">Copyright &amp; Useage </option>
+			  <option value="1">Other </option>
+			</select>
+		  </div>
+		</div>
+		<div class="6u 12u$(3)">
+		  <input type="checkbox" id="copy" name="copy">
+		  <label for="copy">Email me a copy of this message</label>
+		</div>
+		<div class="6u$ 12u$(3)">
+		  <input type="checkbox" id="human" name="human">
+		  <label for="human">I am a human and not a robot</label>
+		</div>
+		<div class="field">
+		  <label for="message">Message</label>
+		  <textarea name="message" id="message" rows="5"></textarea>
+		</div>
+		<ul class="actions">
+		  <li>
+			<input type="submit" value="Send Message">
+		  </li>
+		</ul>
+	  </form>
+
+	  <!-- Footer -->
+	  <footer id="footer">
+		<p class="copyright">&copy; Grinnell Posters</p>
+	  </footer>
+
+  </body>
+</html>        
