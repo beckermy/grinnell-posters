@@ -37,6 +37,34 @@ a:visited {
   color: #bababa;
 }
 
+/* Body */
+.home{
+  text-align: center;
+  margin: auto;
+  margin-top: 125px;
+  color: #b2b2b2;
+  width: 40%;
+}
+
+.welcome {
+  margin-bottom: 10px;
+}
+
+.divider{
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  width: 33%;
+}
+
+.col {
+  width: 33%
+  display: inline-block;
+}
+
 /* Footer */ 
 
 #footer {
