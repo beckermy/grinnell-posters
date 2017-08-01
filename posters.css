@@ -96,6 +96,17 @@
   text-decoration: none;
 }
 
+.concerts_image {
+  width: 300px;
+  height: 300px;
+}
+
+table {
+  margin: 0px auto;
+}
+
+
+
 /* Footer */ 
 
 #footer {
