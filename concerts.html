@@ -2,6 +2,7 @@
   <head>
 	<link rel="stylesheet" href="posters.css"/>
 	<link rel="stylesheet" href="home.css"/>
+        <script src="concerts.js"></script>
 	<title>Grinnell Posters</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -27,39 +28,40 @@
 	  <hr class="divider"></hr>
 	</div>
 
-        <table>
+        <table class='concerts_posters' id="tableID">
           <tr>
-            <th>
-              <img src="images/test_images/grin_concerts.jpg" alt="grin_concerts_test" class="concerts_image">
-            </th>
-            <th>
-              <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image"> 
-            </th>
-            <th>
+            <td>
+              <a href="images/test_images/grin_concerts.jpg"><img src="images/test_images/grin_concerts.jpg" alt="grin_concerts_test" class="concerts_image"></a>
+              <p>test text</p>
+            </td>
+            <td>
+              <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" id="testID" class="concerts_image" onclick="hideshow(this)"> 
+            </td>
+            <td>
               <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image">
-            </th>
+            </td>
           </tr>
           <tr>
-            <th>
+            <td>
               <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image">
-            </th>
-            <th>
+            </td>
+            <td>
               <img src="images/test_images/grin_concerts.jpg" alt="grin_concerts_test" class="concerts_image">
-            </th>
-            <th>
+            </td>
+            <td>
               <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image">
-            </th>
+            </td>
           </tr>
           <tr>
-            <th>
+            <td>
               <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image">
-            </th>
-            <th>
+            </td>
+            <td>
               <img src="images/test_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image">
-            </th>
-            <th>
+            </td>
+            <td>
               <img src="images/test_images/grin_concerts.jpg" alt="grin_concerts_test" class="concerts_image">
-            </th>
+            </td>
           </tr>
 	  <!-- Footer -->
 	  <footer id="footer">
