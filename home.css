@@ -57,7 +57,7 @@
   size: 150%;
 }
 
-.nav a:link {
+.nav a:link , .home a:link {
   text-decoration: none;
   color: black;
 }
@@ -66,7 +66,7 @@
   color: #FFFFFF;
 }
 
-.nav a:visited {
+.nav a:visited , .home a:visited {
   color: #bababa;
 }
 
@@ -112,7 +112,7 @@
   -moz-column-rule: 4px outset #efefef; /* Firefox */
   column-rule: 4px outset #efefef;
 
-  margin-top: 75px;
+  margin-top: 40px;
 }
 
 .concerts , .KDIC , .events {
