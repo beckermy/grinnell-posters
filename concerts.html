@@ -6,6 +6,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   </head>
   <body class="background site">
 
@@ -26,6 +27,7 @@
 	  <h2 class="welcome"> Concerts </h2>
 	  <hr class="divider"></hr>
 	  <table class="concerts-table">
+          <div id='testDiv'></div>
 		<tr>
 		  <th>
 			<!-- Trigger the Modal -->
@@ -46,7 +48,18 @@
 			</p> CONCERT YEAR </p>
 		  </th>
 		  <th>
-			<img src="images/concerts_images/allan_kingdom.jpeg" alt="grin_concerts_test" class="concerts_image">
+                      <img id="myImg" src="images/concerts_images/allan_kingdom.jpeg" alt="need to rewrite w3 code to allow for multiple lines here" class="concerts_image">
+
+                      <div id="myModal" class="modal">
+
+                          <!-- The Close Button -->
+                          <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+                          <!-- Modal Content (The Image) -->
+                          <img class="modal-content" id="img01">
+
+                          <!-- Modal Caption (Image Text) -->
+                        </div>
 			<p> Allan Kingdom </p>
 			<p> Spring 2017 </p>
 		  </th>
