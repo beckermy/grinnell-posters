@@ -1,5 +1,5 @@
 // This document contains the array that contains the names of the concert poster images
-
+/**
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -20,7 +20,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
     modal.style.display = "none";
 }
-
+**/
 var conImageNames = [
   "allan_kingdom.jpeg",
   "gallant.jpg",
