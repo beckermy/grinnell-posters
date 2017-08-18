@@ -22,10 +22,13 @@ span.onclick = function() {
 }
 **/
 var conImageNames = [
-  "allan_kingdom.jpeg",
-  "gallant.jpg",
-  "goldlink.jpg",
-  "grin_concerts.jpg"];
+  ["allan_kingdom.jpeg", "Allan Kingdom", "Spring 2017"],
+  ["gallant.jpg", "Gallant", "Fall 2015"],
+  ["goldlink.jpg", "Goldlink", "Spring 2016"],
+  ["grin_concerts.jpg", "Grinnell Concerts", "Grinnell Concerts"],
+  ["grin_concerts.jpg", "Grinnell Concerts", "Grinnell Concerts"],
+  ["grin_concerts.jpg", "Grinnell Concerts", "Grinnell Concerts"]
+];
 
 function numberOfImages(conImageNames) {
   return conImageNames.length;
@@ -46,7 +49,7 @@ var iterCounter = Math.ceil(conImageNames.length / 3);
 
 $(document).ready(function(){
    for(var i = 0; i< iterCounter; i++) {
-     $("#testDiv").append('<tr><th> <a href="images/concerts_images/' + conImageNames[imageCounter] + '" data-lighter> <img src="images/concerts_images/' + conImageNames[imageCounter] +  '" alt="concerts image" class="concerts_image"> </a><p> CONCERT ARTIST </p></p> CONCERT YEAR </p></th><th>  <a href="images/concerts_images/' + conImageNames[imageCounter + 1] + '" data-lighter> <img src="images/concerts_images/' + conImageNames[imageCounter + 1] + '" alt="concerts image" class="concerts_image"/> </a>  <p> Allan Kingdom </p> <p> Spring 2017 </p></th><th> <a href="images/concerts_images/' + conImageNames[imageCounter + 2] + '" data-lighter> <img src="images/concerts_images/' + conImageNames[imageCounter + 2] + '" alt="concerts image" class="concerts_image"> </a> <p> Gallant </p> <p> Fall 2015 </p> </th> </tr>' );  
+     $("#testDiv").append('<tr><th> <a href="images/concerts_images/' + conImageNames[imageCounter][0] + '" data-lighter> <img src="images/concerts_images/' + conImageNames[imageCounter][0] +  '" alt="concerts image" class="concerts_image"> </a><p>' + conImageNames[imageCounter][1] + ' </p></p>' + conImageNames[imageCounter][2] + ' </p></th><th>  <a href="images/concerts_images/' + conImageNames[imageCounter + 1][0] + '" data-lighter> <img src="images/concerts_images/' + conImageNames[imageCounter + 1][0] + '" alt="concerts image" class="concerts_image"/> </a>  <p>' + conImageNames[imageCounter + 1][1] + ' </p> <p>' + conImageNames[imageCounter + 1][2] + '</p></th><th> <a href="images/concerts_images/' + conImageNames[imageCounter + 2][0] + '" data-lighter> <img src="images/concerts_images/' + conImageNames[imageCounter + 2][0] + '" alt="concerts image" class="concerts_image"> </a> <p>' + conImageNames[imageCounter + 2][1] + '</p> <p>' + conImageNames[imageCounter + 2][2] + '</p> </th> </tr>' );  
     imageCounter = imageCounter + 3;
   }
 });
