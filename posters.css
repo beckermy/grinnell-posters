@@ -4,6 +4,11 @@
   margin: 0px auto;
 }
 
+img {
+  padding: 5px;
+  border: 1px;
+}
+
 /* Modal Image CSS */
 
 /* Style the Image Used to Trigger the Modal */
