@@ -9,6 +9,12 @@ img {
   border: 1px;
 }
 
+
+#wrapper { 
+  width: 900px;
+  margin: 2 auto;
+}
+
 /* Modal Image CSS */
 
 /* Style the Image Used to Trigger the Modal */
