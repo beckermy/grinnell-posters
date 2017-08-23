@@ -140,6 +140,11 @@
   height: 300px;
 }
 
+.kdic_image {
+  width: 300px;
+  height: 300px;
+}
+
 /* Contact Form */
 input[type=text], select, textarea {
   width: 100%;
