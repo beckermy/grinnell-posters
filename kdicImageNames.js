@@ -1,8 +1,8 @@
 var kdicImageNames = [
-  "ACDC.jpg", 
+  "ZacEfron.jpg",
+  "Jaws.jpg", 
   "Anti-Drug.jpg", 
   "Batman.jpg", 
-  "BieberDrink.jpg", 
   "BlueTrain.jpg", 
   "BrainOnKDIC.jpg", 
   "CamelCigs.jpg", 
@@ -15,7 +15,6 @@ var kdicImageNames = [
   "Heat.jpg", 
   "HeCanFly.jpg", 
   "HulkWolverine.jpg", 
-  "Jaws.jpg", 
   "Junkie.jpg", 
   "JurassicPark.jpg", 
   "KimJong-il.jpg", 
@@ -29,8 +28,9 @@ var kdicImageNames = [
   "TheChronic.jpg",
   "ToBloodyKDIC.jpg", 
   "TribeCalledQuest.jpg",
-  "WakeUp.jpg", 
-  "ZacEfron.jpg",
+  "WakeUp.jpg",
+  "BieberDrink.jpg", 
+  "ACDC.jpg", 
   "Overflow.jpg", 
 ];
 
