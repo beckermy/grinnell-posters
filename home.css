@@ -150,6 +150,11 @@
   height: 300px;
 }
 
+.events_image {
+  width: 300px;
+  height: 300px;
+}
+
 /* Contact Form */
 input[type=text], select, textarea {
   width: 100%;
