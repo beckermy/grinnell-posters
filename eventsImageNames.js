@@ -1,9 +1,12 @@
 var evImageNames = [
+  ["1988_April_gaypride.jpg", "Lesbian & Gay Pride Week", "Spring 1988"],
   ["Alice1_2017.jpg", "Alice", "Spring 2017"],
   ["Alice2_2017.jpg", "Alice", "Spring 2017"],
   ["Alice3_2017.jpg", "Alice", "Spring 2017"],
   ["Alice4_2017.jpg", "Alice", "Spring 2017"],
   ["Alice5_2017.jpg", "Alice", "Spring 2017"],
+  ["Alice6_2017.jpg", "Alice", "Spring 2017"],
+  ["Alice6_2017.jpg", "Alice", "Spring 2017"],
   ["Alice6_2017.jpg", "Alice", "Spring 2017"]
 ];
 
