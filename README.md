@@ -4,8 +4,8 @@ Grinnell Posters is a collection of posters from Concerts, KDIC, and others, spa
 
 ## Authors
 
-* **Myles Becker** - [beckermy](https://github.com/beckermy)
-* **Addison Gould** - [Addi Gould](https://github.com/addigould)
+* **Myles Baumann '19** - [Myles Baumann](https://github.com/myles-baumann)
+* **Addison Gould '19** - [Addi Gould](https://github.com/addigould)
 
 ## Contributions
 
